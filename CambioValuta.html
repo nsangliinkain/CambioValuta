@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambio Valuta</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1 style="text-align: center;">Convertitore di Valuta</h1>
+    <input type="number" min="0" id="importo" placeholder="Inserisci importo">
+    <select id="valutaPartenza">
+        <option value="EUR">Euro</option>
+        <option value="USD">Dollaro</option>
+        <option value="GPB">Sterlina Britannica</option>
+    </select>
+    <select id="valutaDestinazione">
+        <option value="EUR">Euro</option>
+        <option value="USD">Dollaro</option>
+        <option value="GPB">Sterlina Britannica</option>
+    </select>
+    <button onclick="mostraRisultato()">Converti</button>
+    <button onclick="reset()">Reset</button>
+    <p id="risultato"></p>
+</body>
+</html>
